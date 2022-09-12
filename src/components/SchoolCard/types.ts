@@ -6,5 +6,6 @@ export interface SchoolCardProps{
     grades?: string;
     programs: string[];
     image: string;
+    location?: string;
 
 }

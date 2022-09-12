@@ -54,6 +54,7 @@ const App = () => {
               schoolName="School Name"
               distance="2"
               address="Address"
+              location="Neighborhood School"
               totalStudents={30}
               grades="Grades"
               programs={[

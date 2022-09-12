@@ -3,6 +3,7 @@ import { makeStyles } from "@mui/styles";
 export const useStyles = makeStyles({
   detailsContainer: {
     display: "flex",
+    alignItems:'flex-start',
     padding: "34px 0px 31px 28px",
   },
   detailsMobileContainer: {
@@ -48,4 +49,14 @@ export const useStyles = makeStyles({
     maxWidth: "550px",
     margin: "0 auto",
   },
+  chip:{
+    marginBottom:'13px',
+    fontSize:'0.875em',
+    fontWeight:700,
+  },
+  chipMobile:{
+    fontSize: '0.55em',
+    height:'auto', 
+    marginBottom:'8px'
+  }
 });

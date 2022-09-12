@@ -6,6 +6,7 @@ import {
   Box,
   Divider,
   Card,
+  Chip,
 } from "@mui/material";
 import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
@@ -19,6 +20,7 @@ import { ReactComponent as GradesIcon } from "../../assets/icons/education.svg";
 import { ReactComponent as LocationIcon } from "../../assets/icons/location.svg";
 import { ReactComponent as PersonIcon } from "../../assets/icons/person.svg";
 import { ReactComponent as DistanceIcon } from "../../assets/icons/distance.svg";
+import { ReactComponent as ChipIcon } from "../../assets/icons/star-filled.svg";
 import { SchoolCardProps } from "./types";
 import { useStyles } from "./styles";
 import { ProgramButton } from "../ProgramButton";
@@ -31,6 +33,7 @@ const SchoolCard: React.FC<SchoolCardProps> = ({
   grades,
   programs,
   image,
+  location,
 }) => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
@@ -59,9 +62,27 @@ const SchoolCard: React.FC<SchoolCardProps> = ({
                 src={image}
               />
               <Box>
-                <Typography variant="h2" sx={{ marginBottom: "16px" }}>
+                <Typography
+                  variant="h2"
+                  sx={
+                    location
+                      ? { marginBottom: "11px" }
+                      : { marginBottom: "16px" }
+                  }
+                >
                   {schoolName}
                 </Typography>
+                {location && (
+                  <Chip
+                    icon={
+                      <ChipIcon
+                        className={isMobile ? classes.mobileIcon : classes.icon}
+                      />
+                    }
+                    className={isMobile ? classes.chipMobile : classes.chip}
+                    label={location}
+                  />
+                )}
                 {grades && (
                   <Box className={classes.detailsLine}>
                     <GradesIcon
