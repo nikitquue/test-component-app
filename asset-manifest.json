@@ -1,20 +1,21 @@
 {
   "files": {
     "main.css": "/test-component-app/static/css/main.e6c13ad2.css",
-    "main.js": "/test-component-app/static/js/main.9c9be15c.js",
+    "main.js": "/test-component-app/static/js/main.fbe6d333.js",
     "static/js/787.6ec9a8c1.chunk.js": "/test-component-app/static/js/787.6ec9a8c1.chunk.js",
     "static/media/school.png": "/test-component-app/static/media/school.23788ef051914b70b36e.png",
     "static/media/person.svg": "/test-component-app/static/media/person.2499f04fa4d482cb5f6c1168e39bb91e.svg",
     "static/media/location.svg": "/test-component-app/static/media/location.ce8658a013b879dd295c909b1e1e4058.svg",
     "index.html": "/test-component-app/index.html",
     "static/media/education.svg": "/test-component-app/static/media/education.ff00ac4ce748e6c4726d9f0e8a06ba6c.svg",
+    "static/media/star-filled.svg": "/test-component-app/static/media/star-filled.4b177e0cf27cb34d57dd8500b3d6637b.svg",
     "static/media/distance.svg": "/test-component-app/static/media/distance.a07c421c2060fa4cbb0202ecbd61238b.svg",
     "main.e6c13ad2.css.map": "/test-component-app/static/css/main.e6c13ad2.css.map",
-    "main.9c9be15c.js.map": "/test-component-app/static/js/main.9c9be15c.js.map",
+    "main.fbe6d333.js.map": "/test-component-app/static/js/main.fbe6d333.js.map",
     "787.6ec9a8c1.chunk.js.map": "/test-component-app/static/js/787.6ec9a8c1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.9c9be15c.js"
+    "static/js/main.fbe6d333.js"
   ]
 }
